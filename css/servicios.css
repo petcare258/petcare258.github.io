@@ -1,0 +1,178 @@
+/*CABECERA*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 20px;
+    padding: 70px;
+    margin: 30px auto;
+    text-align: center;
+    
+}
+
+#Logo img{ 
+width: 200px;
+display: inline block;
+margin-top: -1000px;
+margin-left: 90px;
+
+}  
+/* Estilos para el contenedor principal */
+.container {
+    
+    justify-content:center; 
+    max-width: 700px;
+    margin:0px auto 0 auto; 
+    text-align: center; 
+   
+
+}
+nav{ 
+    position: relative;
+    width: 1500px;
+    margin-top: 30px;
+    margin: 10px auto;
+    font-size: 25px;
+    margin-left: 400px;
+   
+}
+
+ul{
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+    color:#141414;
+    background:F2F2F2;
+    padding: 10px;
+    display: block;
+    width: 220px;
+    margin-top: 5px;
+    margin-left: 15px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+li{
+    text-align: center;
+    display: inline-block;
+}
+
+li a:hover{
+border: 1px solid #E9EEF2;
+background: #F2F2F2;
+border-radius: 10px;
+color: #050505;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+/*Fin cabecera*/
+
+
+/*Banner*/
+.text-overlay h1{ 
+    
+    top: -850px;
+    position: relative;
+    color: rgb(221, 19, 19);
+    padding: 0%;
+    font-size: 100px;
+    margin-bottom: -100px;
+    margin-left: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    h1 {
+        text-align:center;
+    }
+    
+
+#img {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%; 
+    height: auto; 
+    
+}
+  
+.text-overlay img {
+
+        max-width: 50%;
+        height: auto; 
+  }
+  
+  .text-overlay img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+  } 
+ 
+ /*fin del banner*/
+ .veterinary-services {
+    padding: 50px 0; 
+    text-align: center;
+    margin: 0 auto; 
+    max-width: 1000px; 
+  }
+  
+  .veterinary-services h2.centered {
+    margin-bottom: 100px;
+    color: #000000; 
+    font-size: 100px;
+  }
+  
+  .service-grid.centered {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+  }
+  
+  .service {
+    flex: 1 0 300px; 
+    margin: 20px; 
+    padding: 20px; 
+    border: 1px solid #ddd; 
+    border-radius: 10px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    text-align: left; 
+  }
+  
+  .service img {
+    width: 100%; 
+    height: auto; 
+    margin-bottom: 15px; 
+  }
+  
+  .service h3 {
+    font-size: 20px; 
+    margin-bottom: 10px; 
+  }
+  
+  .service p {
+    line-height: 1.6; 
+  }
+  .animation{
+    width: 56px;
+    height: 59px;
+    background: url(../img/PERRO-MARIANA-4.png) left top;
+    /*animation-name: uno, dos;
+    animation-duration: 10s, 10s;
+    animation-timing-function: steps(10), linear;
+    animation-iteration-count: infinite, infinite;*/
+    animation: uno 1s steps(7) infinite, dos 10s linear infinite;
+}
+@keyframes uno{
+    0% {background-position: 0 0;}
+    100% { background-position: -394px 0;}
+}
+@keyframes dos {
+    0% {transform: translateX(0);}
+    100% {transform: translateX(1500px);}
+}
+

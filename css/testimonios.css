@@ -1,0 +1,160 @@
+/*CABECERA*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 20px;
+    padding: 70px;
+    margin: 30px auto;
+    text-align: center;
+    
+}
+
+#Logo img{ 
+width: 200px;
+display: inline block;
+margin-top: -1000px;
+margin-left: 90px;
+
+}  
+/* Estilos para el contenedor principal */
+.container {
+    
+    justify-content:center; 
+    max-width: 700px;
+    margin:0px auto 0 auto; 
+    text-align: center; 
+   
+
+}
+nav{ 
+    position: relative;
+    width: 1500px;
+    margin-top: 30px;
+    margin: 10px auto;
+    font-size: 25px;
+    margin-left: 400px;
+   
+}
+
+ul{
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+    color:#141414;
+    background:F2F2F2;
+    padding: 10px;
+    display: block;
+    width: 220px;
+    margin-top: 5px;
+    margin-left: 15px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+li{
+    text-align: center;
+    display: inline-block;
+}
+
+li a:hover{
+border: 1px solid #E9EEF2;
+background: #F2F2F2;
+border-radius: 10px;
+color: #050505;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+/*Fin cabecera*/
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+   
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+.testimonials {
+    padding: 20px;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center; 
+    height: 100vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.testimonial-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 20px;
+}
+
+.testimonial {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+.testimonial img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+    float: left;
+    margin-right: 15px;
+}
+/* ... other styles ... */
+
+.testimonials {
+    padding: 20px;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    height: 100vh; 
+    margin: 0; 
+}
+
+.testimonial-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 20px;
+}
+footer p{
+    margin: 50px auto;
+    color: rgb(0, 0, 0);
+    
+
+}
+
+footer{
+     width: 100%;
+    text-align: center;
+    padding: 45px;
+
+    margin-top: 170px;
+  
+}
+

@@ -1,0 +1,152 @@
+/*CABECERA*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 20px;
+    padding: 70px;
+    margin: 30px auto;
+    text-align: center;
+    
+}
+
+#Logo img{ 
+width: 200px;
+display: inline block;
+margin-top: -1000px;
+margin-left: 90px;
+
+}  
+/* Estilos para el contenedor principal */
+.container {
+    
+    justify-content:center; 
+    max-width: 700px;
+    margin:0px auto 0 auto; 
+    text-align: center; 
+   
+
+}
+nav{ 
+    position: relative;
+    width: 1500px;
+    margin-top: 30px;
+    margin: 10px auto;
+    font-size: 25px;
+    margin-left: 400px;
+   
+}
+
+ul{
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+    color:#141414;
+    background:F2F2F2;
+    padding: 10px;
+    display: block;
+    width: 220px;
+    margin-top: 5px;
+    margin-left: 15px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+li{
+    text-align: center;
+    display: inline-block;
+}
+
+li a:hover{
+border-radius: 10px;
+color: #050505;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+/*Fin cabecera*/
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-form {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+ 
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+   
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+button {
+  
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+footer img{
+    width: 250px;
+    margin: 0 auto;
+    margin-top: -150px;
+    display: block;
+    position: relative;
+    top: 50px;
+    
+}
+
+footer p{
+    margin: 50px auto;
+    color: rgb(0, 0, 0);
+    
+
+}
+
+footer{
+     width: 100%;
+    text-align: center;
+    padding: 45px;
+
+    margin-top: 170px;
+  
+}
+
+
+
+
+
